@@ -9,3 +9,12 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/lang/lang.css);
 @import url(../blocks/lang/__toggle/lang__toggle.css);
+
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/promo/__image-container/promo__image-container.css);
+@import url(../blocks/promo/__lead-img/promo__lead-img.css);
+@import url(../blocks/promo/__caption-img/promo__caption-img.css);
+
+@import url(../blocks/intro/intro.css);

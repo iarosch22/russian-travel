@@ -1,0 +1,8 @@
+.promo {
+    min-height: 1005px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

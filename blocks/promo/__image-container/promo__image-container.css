@@ -1,0 +1,7 @@
+.promo__image-container {
+    margin: 0;
+    padding-top: 64px;
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+}
