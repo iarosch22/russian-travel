@@ -47,3 +47,8 @@
 @import url(../blocks/journey/__cover-img/journey__cover-img.css);
 @import url(../blocks/journey/__text/journey__text.css);
 @import url(../blocks/journey/__subtitle/journey__subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
