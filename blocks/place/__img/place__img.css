@@ -1,9 +1,18 @@
 .place__img {
-    width: 460px;
+    width: calc(50% - 32px);
+    height: calc(50% - 32px);
 }
 
 @media screen and (max-width: 1279px) {
     .place__img {
-        width: 440px;
+        width: calc(50% - 24px);
+        height: calc(50% - 24px);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__img {
+        width: calc(50% - 20px);
+        height: calc(50% - 20px);
     }
 }

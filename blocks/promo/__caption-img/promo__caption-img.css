@@ -7,3 +7,9 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
+
+@media screen and (max-width: 1023px) {
+    .promo__caption-img {
+        padding-left: 24px;
+    }
+}
