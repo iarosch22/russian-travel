@@ -1,3 +1,9 @@
 .place__img {
     width: 460px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__img {
+        width: 440px;
+    }
+}

@@ -7,3 +7,12 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 1279px) {
+    .grid-layout {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

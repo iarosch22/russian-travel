@@ -1,3 +1,9 @@
 .place {
     padding: 92px 100px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place {
+        padding: 92px 48px;
+    }
+}
