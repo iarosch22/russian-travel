@@ -5,3 +5,7 @@
     line-height: 112%;
     color: #fff;
 }
+
+.footer__link:hover {
+    opacity: 0.8;
+}

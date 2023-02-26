@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     padding-top: 32px;
-    width: 640px;
+    max-width: 640px;
     font-weight: 400;
     font-size: 30px;
     line-height: 120%;
     text-align: center;
     color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .promo__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 16px;
+        max-width: 288px;
+    }
 }

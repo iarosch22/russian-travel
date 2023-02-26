@@ -13,3 +13,9 @@
         padding-left: 24px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .promo__caption-img {
+        padding-left: 16px;
+    }
+}

@@ -19,3 +19,11 @@
         column-gap: 28px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .place__item {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
