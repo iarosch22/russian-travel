@@ -28,6 +28,7 @@
 
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/grid-layout/grid-layout.css);
+@import url(../blocks/grid-layout/__item/grid-layout__item.css);
 @import url(../blocks/grid-layout/__img/grid-layout__img.css);
 
 @import url(../blocks/place/place.css);

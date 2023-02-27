@@ -1,6 +1,7 @@
 .place__img {
     width: calc(50% - 32px);
     height: calc(50% - 32px);
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {

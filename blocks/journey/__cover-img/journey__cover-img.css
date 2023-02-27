@@ -1,8 +1,3 @@
 .journey__cover-img {
     width: 100%;
-    opacity: 0.8;
-}
-
-.journey__link:hover .journey__cover-img {
-    opacity: 0.5;
 }
