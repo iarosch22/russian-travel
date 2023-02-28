@@ -1,26 +1,24 @@
 .place__img {
-    width: calc(50% - 32px);
-    height: calc(50% - 32px);
+    max-width: 460px;
+    height: auto;
     object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {
     .place__img {
-        width: calc(50% - 24px);
-        height: calc(50% - 24px);
+        max-width: 440px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place__img {
-        width: calc(50% - 20px);
-        height: calc(50% - 20px);
+        max-width: 340px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
 }

@@ -1,6 +1,8 @@
 .place__item {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
     column-gap: 40px;
     row-gap: 48px;
     width: 984px;
@@ -8,6 +10,7 @@
 
 @media screen and (max-width: 1279px) {
     .place__item {
+        grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
         column-gap: 32px;
         width: 928px;
     }
@@ -15,15 +18,16 @@
 
 @media screen and (max-width: 1023px) {
     .place__item {
-        width: 720px;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
         column-gap: 28px;
+        width: 720px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__item {
         width: 100%;
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 32px;
     }
 }
