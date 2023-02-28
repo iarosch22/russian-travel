@@ -1,8 +1,13 @@
 .lang__toggle {
+    text-decoration: none;
     font-weight: 400;
     font-size: 24px;
     line-height: 117%;
     color: #ffffff;
+}
+
+.lang__toggle:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
